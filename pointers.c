@@ -8,6 +8,9 @@ int main(){
 	printf("%p\n",&x);
 	printf("%d\n",*ptr);
 	printf("%p\n",ptr);
+
+	*ptr=50;
+	printf("%d",x);
 	return 0;
 }
 
